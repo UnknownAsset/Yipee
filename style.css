@@ -3,6 +3,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: fit-content;
-    height: fit-content;
+    width: 12000px;
+    height: 900px;
 }
