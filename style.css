@@ -1,3 +1,3 @@
 body {
-    background-image: image("lol.jpg");
+    background-image: url("lol.jpg");
 }
