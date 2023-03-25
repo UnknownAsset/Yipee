@@ -1,5 +1,6 @@
 body {
     background-image: url("/images/lol.jpg");
-    width: fit-content;
-    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
