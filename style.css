@@ -17,5 +17,6 @@ body {
 
  #github {
     height: 80px;
-    float: bottom;
+    align-items: center;
+    float: inherit;
  }
