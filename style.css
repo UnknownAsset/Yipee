@@ -11,11 +11,11 @@ body {
     text-align: center;
  }
 
- P {
+ p {
     font-size: 20PX;
  }
 
  #github {
-    size: 50px;
-    margin-bottom: 20px;
+    height: 80px;
+    float: bottom;
  }
