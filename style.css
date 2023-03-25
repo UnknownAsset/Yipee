@@ -14,3 +14,8 @@ body {
  P {
     font-size: 20PX;
  }
+
+ #github {
+    size: 30px;
+    margin-bottom: auto;
+ }
