@@ -1,24 +1,72 @@
- a {
-    height: 70px;
-    display: inline-block;
-    margin-top: 570px;
- }
+ main {
+            text-align: center;
+            font-family: monospace;
+        }
 
- img {
-    transition: all 0.2s ease-in-out;
-    height: 70px;
- }
+        h1 {
+            text-align: center;
+            font-family: monospace;
+            font-size: 70px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
 
- img:hover {
-    height: 75;
-    transform: scale(1.2);
-    margin: 0 auto;
- }
-  
- html {
-    background: linear-gradient(to left bottom, #EAE730, #DB3F0F, #D3105B, #AD32EE);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: center;
-    font-family: monospace;
- }
+        h2 {
+          margin-bottom: 10px;
+          font-size: 35px;
+          margin-left: 10px
+        }
+
+        h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+
+        h1, h2, h3 {
+        color: black;
+        }
+img {
+        width: 60px;
+        height: 60px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      img:hover {
+            transform: scale(1.2);
+          }
+
+          @media only screen and (min-width: 990px) {
+            main {
+                max-width: 70%;
+                margin: 0 auto;
+              }
+
+        h1 {
+            font-size: 72px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-left: 20px;
+        }
+
+        h3 {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+          }
+
+      html {
+            background-image: linear-gradient(to bottom left, yellow, red, purple);
+            background-repeat: no-repeat;
+            background-size: cover;
+      height: 100%;
+         }
